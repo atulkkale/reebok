@@ -1,26 +1,26 @@
 <!doctype html>
 
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
- 
+
   <meta charset="utf-8">
 
-  <title>Client | Page Title</title>
-  
+  <title>Reebok</title>
+
   <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
   <meta name="description" lang="en" content="">
-  
+
   <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
   <meta name="keywords" lang="en" content="">
-  
+
   <!-- View-port Basics: http://mzl.la/VYREaP -->
   <!-- This meta tag is used for mobile device to display the page without any zooming,
-       so how much the device is able to fit on the screen is what's shown initially. 
+       so how much the device is able to fit on the screen is what's shown initially.
        Remove comments from this tag, when you want to apply media queries to the website. -->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
-  
+
   <!-- To adhear no-cache for Chrome -->
   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
   <meta http-equiv="Pragma" content="no-store, no-cache" />
@@ -30,16 +30,250 @@
   <link rel="shortcut icon" href="favicon.ico" />
 
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <script src="https://kit.fontawesome.com/9321966ee0.js" crossorigin="anonymous"></script>
 
-  <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->	
-  <!--[if lt IE 9]>  
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+  <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
 </head>
 
 <body>
+
+<header>
+  <div class="top_options">
+    <div class="t_opt_left">
+      <h1>Reebok <img src="" alt="logo"></h1>
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <p>Free Shipping & Returns *</p>
+    </div>
+    <div class="t_opt_right">
+      <ul>
+        <li><a href="#"><i class="fas fa-star-half"></i> WishList</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i> Login</a></li>
+      </ul>
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li>Men <i class="fas fa-chevron-down"></i></li>
+      <li>Women <i class="fas fa-chevron-down"></i></li>
+      <li>Kids <i class="fas fa-chevron-down"></i></li>
+      <li>Fitness <i class="fas fa-chevron-down"></i></li>
+      <li>Classics <i class="fas fa-chevron-down"></i></li>
+      <li>Outlet <i class="fas fa-chevron-down"></i></li>
+      <li>BE MORE HUMAN <i class="fas fa-chevron-down"></i></li>
+    </ul>
+    <ul>
+      <li>Explore <i class="fas fa-chevron-down"></i></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="banner_img">
+      <img src="assets/images/banner.jpg" alt="Banner">
+    </div>
+    <div class="banner_opt">
+      <p>SHOP FLEXWEAVE</p>
+      <p>LEARN MORE</p>
+    </div>
+    <div class="banner_bar">
+      <i class="fas fa-pause"></i>
+      <div></div>
+      <div></div>
+      <div></div>
+      <p>FLEXWEAVE</p>
+    </div>
+  </section>
+</header>
+
+<section class="shopping_sec">
+  <div class="shopping">
+    <h2>FOOTWEAR</h2>
+    <div class="shopping_data">
+      <img src="assets/images/shoes.png" alt="shoes">
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> Men</li>
+        <li><i class="fas fa-chevron-right"></i> Women</li>
+        <li><i class="fas fa-chevron-right"></i> Kids</li>
+      </ul>
+    </div>
+  </div>
+  <div class="shopping">
+    <h2>CLOTHING</h2>
+    <div class="shopping_data">
+      <img src="assets/images/tshirt.png" alt="Tshirt">
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> Men</li>
+        <li><i class="fas fa-chevron-right"></i> Women</li>
+        <li><i class="fas fa-chevron-right"></i> Kids</li>
+      </ul>
+    </div>
+  </div>
+  <div class="shopping">
+    <h2>ACCESSORIES</h2>
+    <div class="shopping_data">
+      <img src="assets/images/gymbag.png" alt="Bag">
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> Men</li>
+        <li><i class="fas fa-chevron-right"></i> Women</li>
+        <li><i class="fas fa-chevron-right"></i> Kids</li>
+      </ul>
+    </div>
+  </div>
+  <div class="shopping">
+    <h2>SALE</h2>
+    <div class="shopping_data">
+      <img src="assets/images/sale.png" alt="SALE">
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> Men</li>
+        <li><i class="fas fa-chevron-right"></i> Women</li>
+        <li><i class="fas fa-chevron-right"></i> Kids</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="activity">
+  <h3>FITNESS & TRAINING</h3>
+  <div class="activity_opts">
+    <div class="a_opt">
+      <img src="assets/images/running.png" alt="RUNNING">
+      <p>RUNNING</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/studio.png" alt="STUDIO">
+      <p>STUDIO</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/yoga.png" alt="YOGA">
+      <p>YOGA</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/training.png" alt="TRAINING">
+      <p>TRAINING</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/dance.png" alt="DANCE">
+      <p>DANCE</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/combat.png" alt="COMBAT">
+      <p>COMBAT</p>
+    </div>
+    <div class="a_opt">
+      <img src="assets/images/crossfit.png" alt="CROSSFIT">
+      <p>CROSSFIT</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h4>THE WORLD OF REEBOK</h4>
+  <div class="world">
+    <img src="assets/images/morehuman.png" alt="Feeling More Human">
+    <p>Be More Human</p>
+  </div>
+  <div class="world">
+    <img src="assets/images/reebokclassic.png" alt="Reebok Classic Shoes">
+    <p>REEBOK CLASSIC</p>
+  </div>
+  <div class="world">
+    <img src="assets/images/runningsquad.png" alt="Over 9000 Runners">
+    <p>Reebok Runnig Squad</p>
+  </div>
+  <div class="world">
+    <img src="assets/images/onlineoutlet.png" alt="Reebok Online Outlet">
+    <p>Reebok Online Outlet</p>
+  </div>
+</section>
+
+<footer>
+  <div class="foot_heading">
+    <h5>Free shipping + free 30-day returns *</h5>
+    <h5>Call us between 8AM to 8PM : 1-800-120-4400</h5>
+    <h5>Email us: customer.care@reebok.com</h5>
+  </div>
+  <section class="foot_section">
+    <div class="f_s">
+      <ul>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">Footwear</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">Footwear</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">Footwear</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </div>
+    <div class="f_s">
+      <ul>
+        <li><a href="#">FITNESS</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Running</a></li>
+        <li><a href="#">Walking</a></li>
+        <li><a href="#">CrossFit&#174;</a></li>
+        <li><a href="#">Studio</a></li>
+        <li><a href="#">Yoga</a></li>
+        <li><a href="#">Dance</a></li>
+      </ul>
+    </div>
+    <div class="f_s">
+      <ul>
+        <li><a href="#">QUICK SHOP</a></li>
+        <li><a href="#">ZPump Fusion</a></li>
+        <li><a href="#">Classics</a></li>
+        <li><a href="#">Offers</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">NEW ARRIVALS</a></li>
+        <li><a href="#">New Arrivals</a></li>
+      </ul>
+    </div>
+    <div class="f_s">
+      <ul>
+        <li><a href="#">CUSTOMER SERVICE</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">*Privacy Policy</a></li>
+        <li><a href="#">*Terms and Conditions</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="signin">
+    <h6><span>SIGN UP</span> FOR EXCLUSIVE SALES AND PRODUCT NEWS</h6>
+    <p><a href="#">Sign Up <i class="fas fa-chevron-circle-right"></i></a></p>
+  </div>
+
+  <div class="banks">
+    <a href="#"><i class="fab fa-google-pay"></i></a>
+    <a href="#"><i class="fab fa-cc-paypal"></i></a>
+    <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+    <a href="#"><i class="fab fa-cc-apple-pay"></i></a>
+    <a href="#"><i class="fab fa-cc-amex"></i></a>
+    <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
+    <a href="#"><i class="fab fa-alipay"></i></a>
+    <a href="#"><i class="fab fa-cc-visa"></i></a>
+  </div>
+
+  <div class="copywrite">
+    <p>&#169;2017 shop4reebok.com | Powered By : adi Sports (India) Pvt.Ltd.<img src="assets/images/adisports.png" alt="adi Sports"></p>
+  </div>
+</footer>
 
 <script src="js/vendors/jquery-1.8.3.min.js"></script>
 <script src="js/script.js"></script>
