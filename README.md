@@ -1,4 +1,4 @@
-# Responsive Web Project
+# Training Project
 
 This repository contains the first project I developed as part of my training after joining my first company. The project, built using only HTML and CSS, aimed to help me understand the basics of responsive design and to follow the company's coding standards.
 
