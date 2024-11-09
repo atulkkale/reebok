@@ -8,7 +8,6 @@ The objective of this project was to create a responsive web page using only HTM
 
 ## Technologies Used
 
-
 - **HTML5**
 - **CSS3**
 
